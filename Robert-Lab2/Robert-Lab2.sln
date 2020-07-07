@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robert-Lab2", "Robert-Lab2\Robert-Lab2.csproj", "{098B86ED-D13A-435B-900E-1A0BCC59BAC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robert-Lab2Test", "Robert-Lab2Test\Robert-Lab2Test.csproj", "{514E806B-DE5B-4FF2-A083-0214F25D33CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{098B86ED-D13A-435B-900E-1A0BCC59BAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098B86ED-D13A-435B-900E-1A0BCC59BAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098B86ED-D13A-435B-900E-1A0BCC59BAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098B86ED-D13A-435B-900E-1A0BCC59BAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514E806B-DE5B-4FF2-A083-0214F25D33CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514E806B-DE5B-4FF2-A083-0214F25D33CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514E806B-DE5B-4FF2-A083-0214F25D33CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514E806B-DE5B-4FF2-A083-0214F25D33CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD9DDB8-4D60-47C1-A102-67C362D59806}
+	EndGlobalSection
+EndGlobal
