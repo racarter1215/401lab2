@@ -7,12 +7,12 @@ namespace Robert_Lab02Test
     public class UnitTest1
     {
         [Fact]
+        //below is the beginning of the code for the ViewBalanceTest
         public void ViewBalance()
         {
-            //int number = 5000;
-            //Assert.Equal(5000);
+            //Assert.Equal(expected, Balance);
         }
-
+        //below is the code to test deposits to ensure that they don't contain unauthorized values
         [Theory]
         [InlineData(2000, 7000)]
         [InlineData(1, 5001)]
@@ -23,7 +23,7 @@ namespace Robert_Lab02Test
             Assert.Equal(expected, Deposit(amount));
 
         }
-
+        //below is the code to test withdraws to ensure that they don't contain unauthorized values
         [Theory]
         [InlineData(2000, 3000)]
         [InlineData(1, 4999)]
