@@ -23,5 +23,16 @@ namespace Robert_Lab02Test
             Assert.Equal(expected, Deposit(amount));
 
         }
+
+        [Theory]
+        [InlineData(2000, 3000)]
+        [InlineData(1, 4999)]
+        [InlineData(10.55, 4989.45)]
+        
+        public void WithdrawTest(decimal amount, decimal expected)
+        {
+            Balance = 5000;
+            Assert.Equal(expected, Withdraw(amount));
+        }
     }
 }

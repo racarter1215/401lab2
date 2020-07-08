@@ -29,6 +29,21 @@ namespace Robert_Lab02
                     int depositAmount = Convert.ToInt32(userAnswer);
                     Deposit(depositAmount);
                 }
+                else if (userNumber == 2)
+                {
+                    Console.WriteLine("How much would you like to withdraw?");
+                    string userAnswer = Console.ReadLine();
+                    int withdrawAmount = Convert.ToInt32(userAnswer);
+                    Withdraw(withdrawAmount);
+                }
+                else if (userNumber == 3)
+                {
+                    Console.WriteLine($"Your current balance is {Balance}");
+                }
+                else if (userNumber == 4)
+                {
+                    Console.WriteLine("Thank you for using the ATM, goodbye!");
+                }
 
 
 
@@ -37,6 +52,12 @@ namespace Robert_Lab02
         public static decimal Deposit(decimal amount)
         {
             Balance += amount;
+            return Balance;
+        }
+
+        public static decimal Withdraw(decimal amount)
+        {
+            Balance -= amount;
             return Balance;
         }
     }
